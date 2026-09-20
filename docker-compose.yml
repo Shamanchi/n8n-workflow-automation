@@ -1,0 +1,17 @@
+﻿version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: n8n-workflow-automation
+    environment:
+      - N8N_URL=\
+      - N8N_API_KEY=\
+      - DATABASE_URL=\
+      - RSS_FEEDS=\
+      - TELEGRAM_BOT_TOKEN=\
+      - TELEGRAM_CHAT_ID=\
+      - LOG_LEVEL=\
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
