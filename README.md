@@ -1,10 +1,10 @@
-﻿# n8n Workflow Automation
+# n8n Workflow Automation
 
 **No-code workflow: RSS -> фильтрация -> Telegram**
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
 [![n8n](https://img.shields.io/badge/n8n-1.54-FF6D5A?logo=n8n)](https://n8n.io)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/License-Shamanchi-green)](LICENSE)
 
 ---
 
@@ -78,8 +78,7 @@ GitHub Actions: Ruff, MyPy, Pytest, Docker build
 ---
 
 ## Лицензия
-MIT
-
+Лицензия Shamanchi 1.0 (source-available) — см. [LICENSE](LICENSE).
 ---
 
 > Источник темы: Каталог портфолио, запись n8n-workflow-automation
